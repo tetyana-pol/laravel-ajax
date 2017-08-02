@@ -1,0 +1,1 @@
+{{route('idshow',['id'=>$lead->id])}}

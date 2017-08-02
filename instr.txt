@@ -1,0 +1,12 @@
+Create database
+Clone project:
+$ git clone git@bitbucket.org:shnshn/lmcrm.git
+Create and config .env file
+Install packages:
+$ composer install
+Generate unique key:
+$ php artisan key:generate
+Create necessary tables:
+$ php artisan migrate
+or restore from file /database/lmcrm.sql * Add users:
+$ php artisan db:seed --class=SentinelDatabaseSeeder
